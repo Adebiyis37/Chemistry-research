@@ -140,8 +140,8 @@ const questions = [
     {
         question: "The IUPAC name of CH₃-CH=CH-CHO is ___. -(WAEC 2018)",
         answers: [
-            {text: "But-2-enal", correct: false},
-            {text: "Propenal", correct: true},
+            {text: "But-2-enal", correct: true},
+            {text: "Propenal", correct: false},
             {text: "But-3-anal", correct: false},
             {text: "Pent-2-enal", correct: false},
         ]
