@@ -1,187 +1,187 @@
 const questions = [
     {
-        question: "How many bones are there in an adult human skeleton?",
+        question: "What is the IUPAC name of CH₃-CH₂-CH₂-CH₃? - (WAEC 2023)",
         answers: [
-            {text: "206", correct: true},
-            {text: "210", correct: false},
-            {text: "205", correct: false},
-            {text: "200", correct: false},
+            {text: "Butane", correct: true},
+            {text: "Butene", correct: false},
+            {text: "Propane", correct: false},
+            {text: "Ethane", correct: false},
         ]
     },
     {
-        question: "Which is the longest bone in the human body?",
+        question: "The IUPAC name of CH₂=CH₂ is: ____.  - NECO 2022",
         answers: [
-            {text: "Humerus", correct: false},
-            {text: "Femur", correct: true},
-            {text: "Fibula", correct: false},
-            {text: "Tarsal", correct: false},
+            {text: "Ethane", correct: false},
+            {text: "Ethene", correct: true},
+            {text: "Ethane", correct: false},
+            {text: "Propene", correct: false},
         ]
     },
     {
-        question: "Which part of the skeleton protects the brain?",
+        question: "What is the name of CH₃-C≡CH? - UTME 2021",
         answers: [
-            {text: "Skull", correct: true},
-            {text: "Spine", correct: false},
-            {text: "Ribcage", correct: false},
-            {text: "Pelvis", correct: false},
+            {text: "Propene", correct: false},
+            {text: "Propyne", correct: true},
+            {text: "Butyne", correct: false},
+            {text: "Ethyne", correct: false},
         ]
     },
 
     {
-        question: "What is the main function of the ribcage?",
+        question: "The IUPAC name of CH₃-CH₂-CHO is _____. - WAEC 2022",
         answers: [
-            {text: "To help in digestion", correct: false},
-            {text: "To protect the heart and lungs", correct: true},
-            {text: "To produce blood cells", correct: false},
-            {text: "To support the body’s weight", correct: false},
+            {text: "Ethanal", correct: false},
+            {text: "Propanal", correct: true},
+            {text: "Butanal", correct: false},
+            {text: "Methanal", correct: false},
         ]
     },
 
     {
-        question: "Which bone is also known as the collarbone?",
+        question: "What is the correct name for CH₃-CH₂-COOH? - NECO 2021",
         answers: [
-            {text: "Scapula", correct: false},
-            {text: "Sternum", correct: false},
-            {text: "Clavicle", correct: true},
-            {text: "Pelvis", correct: false},
+            {text: "Ethanoic acid", correct: false},
+            {text: "Propanoic acid", correct: true},
+            {text: "Butanoic acid", correct: false},
+            {text: "Methanoic acid", correct: false},
         ]
     },
     {
-        question: "What is the taste of most acids?",
+        question: "The IUPAC name of CH₃-CO-CH₃ is __. -(UTME 2020) ",
         answers: [
-            {text: "Sweet", correct: false},
-            {text: "Sour", correct: true},
-            {text: "Bitter", correct: false},
-            {text: "Salty", correct: false},
+            {text: "Propanone", correct: true},
+            {text: "Butanone", correct: false},
+            {text: "Ethanal", correct: false},
+            {text: "Methanal", correct: false},
         ]
     },
     {
-        question: "What is the taste of most bases?",
+        question: "What is the name of CH₃-CH₂-OH? - (WAEC 2021)",
         answers: [
-            {text: "Sweet", correct: false},
-            {text: "Sour", correct: false},
-            {text: "Bitter", correct: true},
-            {text: "Salty", correct: false},
+            {text: "Methanol", correct: false},
+            {text: "Ethanol", correct: true},
+            {text: "Propanol", correct: false},
+            {text: "Butanol", correct: false},
         ]
     },
     {
-        question: "Which of the following is an example of Acids?",
+        question: "The IUPAC name of CH₃-CH₂-CH₂-Cl is ____. (NECO 2020)",
         answers: [
-            {text: "Vinegar", correct: true},
-            {text: "Baking Soda", correct: false},
-            {text: "Soap", correct: false},
-            {text: "Milk", correct: false},
+            {text: "Chloromethane", correct: false},
+            {text: "Chloroethane", correct: false},
+            {text: "1-Chloropropane", correct: true},
+            {text: "2-Chloropropane", correct: false},
         ]
     },
     {
-        question: "Which of the following is an example of Bases?",
+        question: "What is the correct name for CH₃-CH(Br)-CH₃? - (UTME 2022)",
         answers: [
-            {text: "Vinegar", correct: false},
-            {text: "Baking Soda", correct: true},
-            {text: "Soap", correct: false},
-            {text: "Milk", correct: false},
+            {text: "1-Bromopropane", correct: false},
+            {text: "2-Bromopropane", correct: true},
+            {text: "Bromoethane", correct: false},
+            {text: "3-Bromopropane", correct: false},
         ]
     },
     {
-        question: "What happens to blue litmus paper when it is dipped in an acid?",
+        question: "The IUPAC name of CH₃-CH=CH-CH₃ is ______. - (WAEC 2020)",
         answers: [
-            {text: "It turns red", correct: true},
-            {text: "It turns green", correct: false},
-            {text: "It turns orange", correct: false},
-            {text: "It turns yellow", correct: false},
+            {text: "But-1-ene", correct: false},
+            {text: "But-2-ene", correct: true},
+            {text: "Propene", correct: false},
+            {text: "Pentene", correct: false},
         ]
     },
     {
-        question: "What are rocks made of?",
+        question: "What is the name of C₆H₅-CH₃? - (NECO 2023)",
         answers: [
-            {text: "Only water", correct: false},
-            {text: "Sand", correct: false},
-            {text: "Minerals", correct: true},
-            {text: "Plants", correct: false},
+            {text: "Phenol", correct: false},
+            {text: "Toluene", correct: true},
+            {text: "Benzene", correct: false},
+            {text: " Aniline", correct: false},
         ]
     },
     {
-        question: "Which type of rock is formed from cooled lava or magma?",
+        question: "The IUPAC name of CH₃-CH₂-NH₂ is ___. -(UTME 2023)",
         answers: [
-            {text: "Sedimentary rock", correct: false},
-            {text: "Igneous rock", correct: true},
-            {text: "Metamorphic rock", correct: false},
-            {text: "Meteorites", correct: false},
+            {text: "Methanamine", correct: false},
+            {text: "Ethanamine", correct: true},
+            {text: "Propanamine", correct: false},
+            {text: "Butanamine", correct: false},
         ]
     },
     {
-        question: "Which type of rock is made from layers of sediment?",
+        question: "What is the correct name for CH₃-O-CH₃?- (WAEC 2019)",
         answers: [
-            {text: "Sedimentary rock", correct: true},
-            {text: "Igneous rock", correct: false},
-            {text: "Metamorphic rock", correct: false},
-            {text: "Meteorites", correct: false},
+            {text: "Methoxymethane", correct: true},
+            {text: "Ethoxyethane", correct: false},
+            {text: "Methanol", correct: false},
+            {text: "Dimethyl ketone", correct: false},
         ]
     },
     {
-        question: "What is the process of breaking rocks into smaller pieces called?",
+        question: "The IUPAC name of CH₃-CH₂-COO-CH₃ is ____. - (NECO 2019)",
         answers: [
-            {text: "Weathering", correct: true},
-            {text: "Melting", correct: false},
-            {text: "Erosion", correct: false},
-            {text: "Crystalization", correct: false},
+            {text: "Ethyl butanoate", correct: false},
+            {text: "Methyl propanoate", correct: true},
+            {text: "Ethyl methanoate", correct: false},
+            {text: "Methyl ethanoate", correct: false},
         ]
     },
     {
-        question: "The process of stopping a moving vehicle requires ____?",
+        question: "What is the name of CH₃-CH₂-CH₂-CH₂-OH? - (UTME 2019)",
         answers: [
-            {text: "force", correct: true},
-            {text: "strenght", correct: false},
-            {text: "power", correct: false},
-            {text: "mercy", correct: false},
+            {text: "Propanol", correct: false},
+            {text: "Butanol", correct: true},
+            {text: "Pentanol", correct: false},
+            {text: "Ethanol", correct: false},
+        ]
+    },
+    
+    {
+        question: "The IUPAC name of CH₃-CH=CH-CHO is ___. -(WAEC 2018)",
+        answers: [
+            {text: "But-2-enal", correct: false},
+            {text: "Propenal", correct: true},
+            {text: "But-3-anal", correct: false},
+            {text: "Pent-2-enal", correct: false},
         ]
     },
     {
-        question: "Sounds are caused by ____",
+        question: "What is the correct name for C₆H₅-COOH? - (NECO 2018)",
         answers: [
-            {text: "tension", correct: false},
-            {text: "vibrations", correct: true},
-            {text: "spirits", correct: false},
-            {text: "our brain", correct: false},
+            {text: "Benzoic acid", correct: true},
+            {text: "Phenol", correct: false},
+            {text: "Benzaldehyde", correct: false},
+            {text: "Toluene", correct: false},
         ]
     },
     {
-        question: "Flies buzz around in which medium?",
+        question: "The IUPAC name of (CH₃)₂CH-CH₂-CH₃ is __. - (UTME 2018)",
         answers: [
-            {text: "Water", correct: false},
-            {text: "Air", correct: true},
-            {text: "Solids", correct: false},
-            {text: "Smokes", correct: false},
+            {text: "2-Methylbutane", correct: true},
+            {text: "3-Methylbutane", correct: false},
+            {text: "Pentane", correct: false},
+            {text: "Isopentane", correct: false},
         ]
     },
     {
-        question: "Which of these is not a natural sound for humans?",
-        answers: [
-            {text: "Sneezing", correct: false},
-            {text: "Squeaking", correct: true},
-            {text: "Shouting", correct: false},
-            {text: "Screaming", correct: false},
+        question: "What is the name of CH₃-CH₂-CH₂-CH₂-CHO? - (WAEC 2017)",
+          answers: [
+            {text: "Pentanal", correct: true},
+            {text: "Butanal", correct: false},
+            {text: "Hexanal", correct: false},
+            {text: "Propanal",correct: false},
         ]
     },
     {
-        question: "Which of these animals depends echolocation?",
-        answers: [
-            {text: "Eagle", correct: false},
-            {text: "Owl", correct: false},
-            {text: "Bat", correct: true},
-            {text: "Hawk", correct: false},
+        question: "The IUPAC name of CH₃-CH₂-CH₂-CO-CH₃ is ___. - (NECO 2017)",
+          answers: [
+            {text: "Butanone", correct: true},
+            {text: "Pentanone",correct: false},
+            {text: "Propanone", correct: false},
+            {text: "Hexanone", correct: false},
         ]
     },
-    {
-        question: "Which of these is not a property of Sound",
-        answers: [
-            {text: "Pitch", correct: false},
-            {text: "Amplitude", correct: false},
-            {text: "Timbre", correct: false},
-            {text: "Corrosive", correct: true},
-        ]
-    },
-
 ]
     
 
