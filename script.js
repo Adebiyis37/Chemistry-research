@@ -176,8 +176,8 @@ const questions = [
     {
         question: "The IUPAC name of CH₃-CH₂-CH₂-CO-CH₃ is ___. - (NECO 2017)",
           answers: [
-            {text: "Butanone", correct: true},
-            {text: "Pentanone",correct: false},
+            {text: "Butanone", correct: false},
+            {text: "Pentanone",correct: true},
             {text: "Propanone", correct: false},
             {text: "Hexanone", correct: false},
         ]
