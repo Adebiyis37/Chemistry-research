@@ -13,7 +13,7 @@ const questions = [
         answers: [
             {text: "Ethane", correct: false},
             {text: "Ethene", correct: true},
-            {text: "Ethane", correct: false},
+            {text: "Ethyne", correct: false},
             {text: "Propene", correct: false},
         ]
     },
